@@ -65,6 +65,7 @@ body {
   max-width: 100%;
   margin-bottom: 40px;
   text-align: center;
+  padding: 30px;
 }
 
 .section-title h1 {
@@ -194,4 +195,21 @@ header .navbar ul li a {
 
 #about {
   background-color: #f7f7f7;
+}
+
+#about .img {
+  flex: 0 0 33.33%;
+  max-width: 33.3%;
+}
+
+#about .img img {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+}
+
+#about .text {
+  flex: 0 0 66.66%;
+  max-width: 66.66%;
+  padding: 0 35px;
 }
